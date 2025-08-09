@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buzzevent</title>
+  <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
+</head>
+ 
+<body>
+
+
+  <nav class="navbar bg-transparent py-4">
+    <div class="container position-relative">
+      <a class="navbar-brand w-100 text-center py-0" href="#"><img src="assets/images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler border-0 p-0 position-absolute" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <img src="assets/images/menu-icon.svg" alt="menu-icon">
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div> -->
+    </div>
+  </nav>
+
+
+  <section class="bodySection" data-bs-toggle="modal" data-bs-target="#detailModal">
+    <div class="container">
+      <h1 class="pageTitle text-uppercase text-center">COCKTAIL DIRECTORY</h1>
+      <div class="row g-4">
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center" data-bs-toggle="modal" data-bs-target="#detailModal">
+            <div class="liquorImg">
+              <img src="assets/images/liquor01.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Spritz</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor02.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Bloody Mary</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor03.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Oaxaca Old Fashioned</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor04.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Daiquiri</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor05.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Paloma</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor06.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Pina colada</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor07.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Mai Tai</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor08.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Moscow Mule</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor09.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Boulevardier</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor10.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Margarita</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor11.png" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Mojito</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 col-lg-2">
+          <div class="liquorCard text-center">
+            <div class="liquorImg">
+              <img src="assets/images/liquor12.jpg" alt="liquor-img">
+            </div>
+            <div class="liquorContent">
+              <h6>Whiskey Sour</h6>
+              <p>Cognac, Orange uraqao,...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="appSection">
+    <div class="row">
+      <div class="col-12">
+        <p><span>Brought to you by <a href=""><img src="assets/images/buzz-logo.png" alt="buzz-loog"></a> The Event
+            Discovery App.</span> <br /> Explore 100s of cocktails and events near you. Download now.</p>
+        <div class="appBtn text-center mt-1">
+          <a href="#"><img src="assets/images/appStore.png" alt="app-store"></a>
+          <a href="#"><img src="assets/images/googlePay.png" alt="google-play"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="liquorSlider">
+      <div class="sliderImg">
+        <img src="assets/images/slider01.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider02.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider03.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider04.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider05.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider06.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider07.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider08.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider09.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider01.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider02.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider03.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider04.png" alt="slider-img">
+      </div>
+      <div class="sliderImg">
+        <img src="assets/images/slider05.png" alt="slider-img">
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade buzzPopup" id="detailModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="liquorDetail">
+            <div class="liquorDetailImg">
+              <img src="assets/images/img01.png" alt="liquor-img">
+            </div>
+            <div class="liquorDetailContent">
+              <h6>Spritz <img src="assets/images/share-icon.svg" alt="share-icon"></h6>
+              <div class="liquorDetailDesc ">
+                <div class="liquorDetailDescTitle d-flex align-items-center justify-content-between">
+                  <span>Ingredients</span>
+                  <span>Measurements</span>
+                </div>
+                <ul>
+                  <li>Prosecco <span>90mL</span></li>
+                  <li>Aperol <span>60mL</span></li>
+                  <li>Soda Water <span>30mL</span></li>
+                </ul>
+              </div>
+              <div class="stepList mt-3">
+                <div class="stepTitle">
+                  <h3>Step to Make it:</h3>
+                </div>
+                <ol class="list-group list-group-numbered">
+                  <li class="list-group-item">Add 2 slices of orange to your large wine glass</li>
+                  <li class="list-group-item">Add all the ingredients</li>
+                  <li class="list-group-item">Stir briefly</li>
+                </ol>
+              </div>
+              <div class="videoBox mt-3">
+                <iframe width="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $('.liquorSlider').slick({
+      slidesToShow: 7,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      infinite: false,
+      loop: true,
+    });
+  </script>
+
+</body>
+
+</html>
