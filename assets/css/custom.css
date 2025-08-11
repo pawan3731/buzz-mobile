@@ -21,7 +21,7 @@
  html, body { overflow-x: hidden; }
 
 body {
-    background-color:#FCF8F2;
+    background-color:var(--whiteColor);
 }
 
 body, ul, ol, h1, h2, h3, h4, h5, h6, p {
