@@ -170,6 +170,12 @@ button:focus {
     overflow: hidden;
 }
 
+.liquorDetailImg img {
+    aspect-ratio: 3/2;
+    width: 100%;
+    object-fit: cover;
+}
+
 .liquorDetailContent h6 {
     display: flex;
     align-items: center;
